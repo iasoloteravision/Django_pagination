@@ -26,7 +26,7 @@ cd pagination_example
 django-admin startapp my_app
 ```
 
-3. Define a model in your `myapp/models.py`
+3. **Define a model in your** `myapp/models.py`
 
 Creating data in a Django application involves defining models, migrating those models to create corresponding database tables, and then using the Django shell or management commands to create instances of those models.
 ```
@@ -38,13 +38,13 @@ class Item(models.Model):
     def __str__(self):
         return self.name
 ```
-4. Create database Tables(Migrate)
+4. **Create database Tables(Migrate)**
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-4. **Create some data using Django shell**
+5. **Create some data using Django shell**
 
 `python3 manage.py shell`
 
@@ -78,7 +78,7 @@ item2.save()
 
 It's more job, but it can be more accurate.
 
-5. **Implement the view with pagination in `myapp/views.py`
+6. **Implement the view with pagination in** `myapp/views.py`
 
 ```
 from django.shortcuts import render
@@ -106,7 +106,7 @@ def item_list(request):
 
 ```
 
-6. **Create a template** `myapp/templates/item_list.html`:
+7. **Create a template** `myapp/templates/item_list.html`:
 
 ```
 <!DOCTYPE html>
@@ -146,7 +146,7 @@ def item_list(request):
 
 Is a basic html template to show the pagination in action, feel free to change it as you want.
 
-7. Configure the URL in myproject/urls.py:
+8. **Configure the URL in** `myproject/urls.py`:
 
 ```
 from django.urls import path
@@ -159,11 +159,11 @@ urlpatterns = [
 
 Here we will configure the URLS to show in our Django project.
 
-8. Now we are ready to watch Pagination in action, just run:
+9. **Now we are ready to watch Pagination in action, just run:**
 
 `python3 manage.py runserver`
 
-and enjoy your job!
+## and enjoy your job! ##
 
 ![Alt text](image.png)
 
