@@ -1,7 +1,7 @@
 # Paginator for Django
 ![Alt text](https://img.shields.io/badge/Paginator-blue)
-![Alt text](https://img.shields.io/badge/Django-red)
-![Alt text](https://img.shields.io/badge/Python-green)
+![Alt text](https://img.shields.io/badge/django-red?logo=django)
+![Alt text](https://img.shields.io/badge/python-green?logo=python)
 ![Alt text](https://img.shields.io/badge/Teravision-blue)
 ## Introduction
 
