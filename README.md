@@ -1,5 +1,8 @@
 # Paginator for Django
-
+![Alt text](https://img.shields.io/badge/Paginator-blue)
+![Alt text](https://img.shields.io/badge/Django-red)
+![Alt text](https://img.shields.io/badge/Python-green)
+![Alt text](https://img.shields.io/badge/Teravision-blue)
 ## Introduction
 
 Pagination is the process of breaking large chunks of data up across multiple, discrete web pages. Rather than dumping all the data to the user, you can define the number of individual records you want to be displayed per page and then send back the data that corresponds to the page requested by the user.
